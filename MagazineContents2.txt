@@ -1,0 +1,9 @@
+04 Ethics for Engineers
+06 Ruzyllo on Transistor (r)evolution and its multidisciplinary nature
+08 Bird in the hand: An electronic field guide app for bird watchers
+15 Single-event soft errors in CMOS logic
+23 A pseudo-divide-by-carrier coherent demodulator for DSB-SC signals
+28 Data management and synchronization in a mobile ad hoc network
+31 Using stereo vision to construct 3-D surface models
+38 An eye on visual sensor networks
+44 My first job: Engineering evolution

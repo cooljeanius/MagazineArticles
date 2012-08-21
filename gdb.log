@@ -1,0 +1,389 @@
+#  /Developer/usr/bin/gdb t=0.001125 Tepoch=1344608675.375829
+<- (gdb) 
+-> 2684-gdb-version
+#  PBXGDB_MIGDBVersionCommand t=2.515069 Tepoch=1344608677.889773
+-> 2685-gdb-set auto-raise-load-levels 1
+#  PBXGDB_MISetAutoRaiseSymbols t=2.515154 Tepoch=1344608677.889858
+-> 2686-gdb-set env DYLD_NO_FIX_PREBINDING YES
+#  PBXGDB_MISetEnvCommand t=2.515218 Tepoch=1344608677.889922
+-> 2687-gdb-set env SSH_AUTH_SOCK /tmp/launch-5QrILR/Listeners
+#  PBXGDB_MISetEnvCommand t=2.515278 Tepoch=1344608677.889982
+-> 2688-gdb-set env GL_ENABLE_DEBUG_ATTACH YES
+#  PBXGDB_MISetEnvCommand t=2.515334 Tepoch=1344608677.890039
+-> 2689-gdb-set env C_INCLUDE_PATH /include:/usr/include:usr/local/include:/opt/local/include:/sw/include:/Developer/usr/include:/usr/local/clang+llvm-2.9-x86_64-apple-darwin10/include:/usr/local/apr/include:/usr/local/llvm-gcc-4.2-2.9-x86_64-apple-darwin10/include:/usr/local/cuda/include:/usr/local/mysql/include:/usr/local/mysql-5.5.9-osx10.6-x86_64/include:/usr/local/php5/include
+#  PBXGDB_MISetEnvCommand t=2.515398 Tepoch=1344608677.890102
+-> 2690-gdb-set env Apple_PubSub_Socket_Render /tmp/launch-hfiLYI/Render
+#  PBXGDB_MISetEnvCommand t=2.515456 Tepoch=1344608677.890160
+-> 2691-gdb-set env NODE_PATH /Users/ericgallager/node_modules:/opt/local/lib/node_modules
+#  PBXGDB_MISetEnvCommand t=2.515513 Tepoch=1344608677.890217
+-> 2692-gdb-set env DBUS_FINK_SESSION_BUS_SOCKET /tmp/launch-hIY3EQ/unix_domain_listener
+#  PBXGDB_MISetEnvCommand t=2.515568 Tepoch=1344608677.890272
+-> 2693-gdb-set env COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/ERICGALLAGER/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_CANARY_SOCKET /tmp/launch-uNtj4n/ServiceProcessSocket
+#  PBXGDB_MISetEnvCommand t=2.515624 Tepoch=1344608677.890328
+-> 2694-gdb-set env DYLD_FRAMEWORK_PATH /Users/ericgallager/textmate/vendor/MGScopeBar/vendor/build/Debug
+#  PBXGDB_MISetEnvCommand t=2.515681 Tepoch=1344608677.890385
+-> 2695-gdb-set env USERBREAK 1
+#  PBXGDB_MISetEnvCommand t=2.515735 Tepoch=1344608677.890439
+-> 2696-gdb-set env GNUSTEP_SYSTEM_ROOT /opt/local/GNUstep/System
+#  PBXGDB_MISetEnvCommand t=2.515795 Tepoch=1344608677.890499
+-> 2697-gdb-set env SHELL /bin/bash
+#  PBXGDB_MISetEnvCommand t=2.515851 Tepoch=1344608677.890555
+-> 2698-gdb-set env DYLD_LIBRARY_PATH /Users/ericgallager/textmate/vendor/MGScopeBar/vendor/build/Debug
+#  PBXGDB_MISetEnvCommand t=2.515909 Tepoch=1344608677.890613
+-> 2699-gdb-set env PKG_CONFIG_PATH /usr/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/local/lib/pkgconfig:/sw/lib/pkgconfig:/lib/pkgconfig:/Developer/usr/lib/pkgconfig
+#  PBXGDB_MISetEnvCommand t=2.515968 Tepoch=1344608677.890672
+-> 2700-gdb-set env NSUnbufferedIO YES
+#  PBXGDB_MISetEnvCommand t=2.516028 Tepoch=1344608677.890732
+-> 2701-gdb-set env PATH /Developer/usr/bin:/bin:/sbin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/GNUstep/System/Tools:/sw/bin:/sw/sbin:/sw2/bootstrap/bin:/sw2/bootstrap/sbin:/usr/local/sbin:/Developer/Tools:/usr/local/tigcc/bin:/usr/local/texlive/2010basic/bin/universal-darwin:/usr/local/php5/bin:/usr/local/mysql-5.5.9-osx10.6-x86_64/bin:/usr/local/mysql/bin:/Developer/usr/bin:/Developer/usr/sbin:/Developer/usr/local/bin:/usr/local/heroku/bin:/usr/local/git/bin:/usr/local/foreman/bin:/usr/local/flexnetserver:/usr/local/clamXav/bin:/opt/nova/bin:/opt/local/lib/erlang/bin:/Users/ericgallager/Downloads/WebKit-r101776/Tools/CygwinDownloader/bin:/Users/ericgallager/Downloads/nacl_sdk/pepper_15/toolchain/mac_x86_newlib/bin:/Users/ericgallager/Downloads/nacl_sdk/pepper_15/toolchain/mac_x86_newlib/bin:/usr/local/ActivePerl-5.14/bin:/usr/local/PDK/bin:/opt/local/GNUstep/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11/lib/X11/xinit:/opt/X11/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/bin:/Developer/GPU\ Computing/CUDALibraries/bin/darwin/release:/opt/local/src/go/go-57.1/bin:/opt/local/share/java/android-sdk-mac_x86/platform-tools:/usr/local/sdcc/bin:/usr/X11R6/bin:/Users/localadmin/.local/bin:/Users/ericgallager/go/bin:/Users/ericgallager/.gem/ruby/1.8/bin:/usr/local/osxbook/efi/gcc-4.1.0-glibc-2.3.6/i686-osxbook-linux-gnu/bin
+#  PBXGDB_MISetEnvCommand t=2.545693 Tepoch=1344608677.920399
+-> 2702-gdb-set env DISPLAY /tmp/launch-cImdNc/org.macosforge.xquartz:0
+#  PBXGDB_MISetEnvCommand t=2.545890 Tepoch=1344608677.920594
+-> 2703-gdb-set env DBUS_LAUNCHD_SESSION_BUS_SOCKET /tmp/launch-Uwhsw1/unix_domain_listener
+#  PBXGDB_MISetEnvCommand t=2.545958 Tepoch=1344608677.920662
+-> 2704-gdb-set env COMMAND_MODE unix2003
+#  PBXGDB_MISetEnvCommand t=2.546011 Tepoch=1344608677.920716
+-> 2705-gdb-set env HOME /Users/ericgallager
+#  PBXGDB_MISetEnvCommand t=2.546065 Tepoch=1344608677.920769
+-> 2706-gdb-set env TMPDIR /var/folders/2V/2VxMt4WCF5avqTEcHvhx9k+++TI/-Tmp-/
+#  PBXGDB_MISetEnvCommand t=2.546120 Tepoch=1344608677.920824
+-> 2707-gdb-set env USER ericgallager
+#  PBXGDB_MISetEnvCommand t=2.546177 Tepoch=1344608677.920881
+-> 2708-gdb-set env GOROOT /opt/local/src/go/go-57.1
+#  PBXGDB_MISetEnvCommand t=2.546230 Tepoch=1344608677.920934
+-> 2709-gdb-set env LOGNAME ericgallager
+#  PBXGDB_MISetEnvCommand t=2.546283 Tepoch=1344608677.920987
+-> 2710-gdb-set env CVS_RSH ssh
+#  PBXGDB_MISetEnvCommand t=2.546357 Tepoch=1344608677.921061
+-> 2711-gdb-set env __CF_USER_TEXT_ENCODING 0x1F5:0:0
+#  PBXGDB_MISetEnvCommand t=2.546410 Tepoch=1344608677.921114
+-> 2712-gdb-set env SSH_ASKPASS /Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources/Xcode SSHPassKey
+#  PBXGDB_MISetEnvCommand t=2.546465 Tepoch=1344608677.921170
+-> 2713-gdb-set env DYLD_NEW_LOCAL_SHARED_REGIONS YES
+#  PBXGDB_MISetEnvCommand t=2.546525 Tepoch=1344608677.921229
+#  Enqueue seq in Command Q: <PBXGDB_SetupSharedLibrarySequence: 0x202ed7a40> t=2.546585 Tepoch=1344608677.921289
+#  Executing Sequence: <PBXGDB_SetupSharedLibrarySequence: 0x202ed7a40> t=2.546755 Tepoch=1344608677.921459
+-> 2715-gdb-set inferior-auto-start-cfm off
+#  PBXGDB_MISetLoadCFMInfoCommand t=2.546925 Tepoch=1344608677.921629
+-> 2714-gdb-set sharedLibrary load-rules dyld ".*AppKit.*" all dyld ".*libobjc.*" all dyld ".*CarbonDataFormatters.*" all dyld ".*libauto.*" all dyld ".*PBGDBIntrospectionSupport.*" all dyld ".*CFDataFormatters.*" all dyld ".*CoreFoundation.*" extern dyld ".*libSystem.*" all dyld ".*/usr/lib/dyld.*" all dyld ".*Foundation.*" all dyld "/System/Library/Frameworks\\\\|/System/Library/PrivateFrameworks\\\\|/usr/lib" extern dyld ".*" extern exec ".*" extern 
+#  PBXGDB_MISetSharedLibraryLoadSymbolsCommand t=2.547325 Tepoch=1344608677.922030
+-> 2716tty /dev/ttys006
+#  PBXGDB_MISetTTYCommand t=2.547392 Tepoch=1344608677.922096
+#  Enqueue seq in Command Q: <PBXGDB_GenericMICommandSequence: 0x2021cece0> t=2.547453 Tepoch=1344608677.922157
+#  Enqueue seq in Command Q: <PBXGDB_FixAndContinueIsSupportedSequence: 0x203164d40> t=2.547490 Tepoch=1344608677.922194
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x203426560> t=2.551671 Tepoch=1344608677.926375
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x20186de00> t=2.551785 Tepoch=1344608677.926489
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x202c958a0> t=2.551849 Tepoch=1344608677.926553
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x20229d560> t=2.551913 Tepoch=1344608677.926617
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x2013747a0> t=2.551977 Tepoch=1344608677.926681
+<- ~"GNU gdb 6.3.50-20050815 (Apple version gdb-1515) (Sat Jan 15 08:33:48 UTC 2011)\n"
+<- ~"Copyright 2004 Free Software Foundation, Inc.\n"
+<- ~"GDB is free software, covered by the GNU General Public License, and you are\nwelcome to change it and/or distribute copies of it under certain conditions.\nType \"show copying\" to see the conditions.\nThere is absolutely no warranty for GDB.  Type \"show warranty\" for details.\n"
+<- ~"This GDB was configured as \"x86_64-apple-darwin\"."
+<- 2684^done,version="6.3.50-20050815 (Apple version gdb-1515)",rc_version="1515",target="x86_64-apple-darwin",build-date="Sat Jan 15 08:33:48 UTC 2011",time={wallclock="0.01608",user="0.00028",system="0.00009",start="1344608677.894181",end="1344608677.910261"}
+#  processing result t=2.694680 Tepoch=1344608678.069385
+<- (gdb) 
+<- 2685^done,time={wallclock="0.00003",user="0.00003",system="0.00000",start="1344608677.910362",end="1344608677.910393"}
+#  processing result t=2.694809 Tepoch=1344608678.069514
+<- (gdb) 
+<- 2686^done,time={wallclock="0.00008",user="0.00003",system="0.00005",start="1344608677.910461",end="1344608677.910538"}
+#  processing result t=2.694910 Tepoch=1344608678.069615
+<- (gdb) 
+<- 2687^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.910627",end="1344608677.910638"}
+#  processing result t=2.695005 Tepoch=1344608678.069710
+<- (gdb) 
+<- 2688^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.910706",end="1344608677.910715"}
+#  processing result t=2.695100 Tepoch=1344608678.069804
+<- (gdb) 
+<- 2689^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.911198",end="1344608677.911211"}
+#  processing result t=2.695196 Tepoch=1344608678.069901
+<- (gdb) 
+<- 2690^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.911311",end="1344608677.911320"}
+#  processing result t=2.695288 Tepoch=1344608678.069993
+<- (gdb) 
+<- 2691^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.911439",end="1344608677.911448"}
+#  processing result t=2.695385 Tepoch=1344608678.070090
+<- (gdb) 
+<- 2692^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.911565",end="1344608677.911574"}
+#  processing result t=2.695479 Tepoch=1344608678.070184
+<- (gdb) 
+<- 2693^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.911795",end="1344608677.911806"}
+#  processing result t=2.695573 Tepoch=1344608678.070278
+<- (gdb) 
+<- 2694^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.911943",end="1344608677.911952"}
+#  processing result t=2.695672 Tepoch=1344608678.070376
+<- (gdb) 
+<- 2695^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.912001",end="1344608677.912011"}
+#  processing result t=2.695767 Tepoch=1344608678.070472
+<- (gdb) 
+<- 2696^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.912100",end="1344608677.912110"}
+#  processing result t=2.695863 Tepoch=1344608678.070567
+<- (gdb) 
+<- 2697^done,time={wallclock="0.00002",user="0.00001",system="0.00001",start="1344608677.912164",end="1344608677.912185"}
+#  processing result t=2.695955 Tepoch=1344608678.070660
+<- (gdb) 
+<- 2698^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.912420",end="1344608677.912431"}
+#  processing result t=2.696052 Tepoch=1344608678.070756
+<- (gdb) 
+<- 2699^done,time={wallclock="0.00002",user="0.00001",system="0.00001",start="1344608677.912641",end="1344608677.912664"}
+#  processing result t=2.696146 Tepoch=1344608678.070850
+<- (gdb) 
+<- 2700^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.912723",end="1344608677.912732"}
+#  processing result t=2.696241 Tepoch=1344608678.070946
+<- (gdb) 
+<- 2701^done,time={wallclock="0.00008",user="0.00006",system="0.00001",start="1344608677.936840",end="1344608677.936916"}
+#  processing result t=2.736738 Tepoch=1344608678.111442
+<- (gdb) 
+<- 2702^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937033",end="1344608677.937044"}
+#  processing result t=2.736858 Tepoch=1344608678.111562
+<- (gdb) 
+<- 2703^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937163",end="1344608677.937172"}
+#  processing result t=2.736966 Tepoch=1344608678.111671
+<- (gdb) 
+<- 2704^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937233",end="1344608677.937242"}
+#  processing result t=2.737066 Tepoch=1344608678.111770
+<- (gdb) 
+<- 2705^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937307",end="1344608677.937316"}
+#  processing result t=2.737161 Tepoch=1344608678.111865
+<- (gdb) 
+<- 2706^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937439",end="1344608677.937450"}
+#  processing result t=2.737288 Tepoch=1344608678.111992
+<- (gdb) 
+<- 2707^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937507",end="1344608677.937516"}
+#  processing result t=2.737382 Tepoch=1344608678.112086
+<- (gdb) 
+<- 2708^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937589",end="1344608677.937598"}
+#  processing result t=2.737480 Tepoch=1344608678.112184
+<- (gdb) 
+<- 2709^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937675",end="1344608677.937684"}
+#  processing result t=2.737576 Tepoch=1344608678.112281
+<- (gdb) 
+<- 2710^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937734",end="1344608677.937744"}
+#  processing result t=2.737670 Tepoch=1344608678.112374
+<- (gdb) 
+<- 2711^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937819",end="1344608677.937828"}
+#  processing result t=2.737763 Tepoch=1344608678.112468
+<- (gdb) 
+<- 2712^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.937985",end="1344608677.937995"}
+#  processing result t=2.737856 Tepoch=1344608678.112560
+<- (gdb) 
+<- 2713^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344608677.938070",end="1344608677.938080"}
+#  processing result t=2.737951 Tepoch=1344608678.112655
+<- (gdb) 
+<- 2715^done,time={wallclock="0.00005",user="0.00001",system="0.00004",start="1344608677.938143",end="1344608677.938191"}
+#  processing result t=2.738048 Tepoch=1344608678.112752
+<- (gdb) 
+<- 2714^done,time={wallclock="0.00006",user="0.00005",system="0.00000",start="1344608677.940039",end="1344608677.940096"}
+#  processing result t=2.738142 Tepoch=1344608678.112846
+-> 2718sharedlibrary apply-load-rules all
+#  PBXGDB_MISharedLibraryApplyLoadRulesCommand t=2.738200 Tepoch=1344608678.112904
+<- (gdb) 
+<- &"tty /dev/ttys006\n"
+<- 2716^done
+#  processing result t=2.738297 Tepoch=1344608678.113002
+<- (gdb) 
+<- &"sharedlibrary apply-load-rules all\n"
+<- 2718^done
+#  processing result t=2.758211 Tepoch=1344608678.132915
+#  didFinish Sequence: <PBXGDB_SetupSharedLibrarySequence: 0x202ed7a40> t=2.758273 Tepoch=1344608678.132977
+#  Executing Sequence: <PBXGDB_GenericMICommandSequence: 0x2021cece0> t=2.758311 Tepoch=1344608678.133016
+-> 2717-file-exec-and-symbols "/Users/ericgallager/textmate/vendor/MGScopeBar/vendor/build/Debug/MGScopeBar.app/Contents/MacOS/MGScopeBar"
+#  PBXGDB_MILoadExecutableCommand t=2.767292 Tepoch=1344608678.141996
+<- (gdb) 
+<- 2717^done,time={wallclock="11.97190",user="0.17038",system="0.26660",start="1344608678.142326",end="1344608690.114225"}
+#  processing result t=14.742591 Tepoch=1344608690.117295
+#  didFinish Sequence: <PBXGDB_GenericMICommandSequence: 0x2021cece0> t=14.749514 Tepoch=1344608690.124218
+#  Executing Sequence: <PBXGDB_FixAndContinueIsSupportedSequence: 0x203164d40> t=14.749586 Tepoch=1344608690.124290
+-> 2719-mi-verify-command file-fix-file-is-grooved
+#  PBXGDB_MIVerifyCommandCommand t=14.749650 Tepoch=1344608690.124354
+<- (gdb) 
+<- 2719^done,name="file-fix-file-is-grooved",defined="true",implemented="true",time={wallclock="0.00004",user="0.00003",system="0.00001",start="1344608690.130338",end="1344608690.130378"}
+#  processing result t=14.756246 Tepoch=1344608690.130950
+-> 2720-file-fix-file-is-grooved
+#  PBXGDB_MIFixAndContinueSupportedCommand t=14.756319 Tepoch=1344608690.131023
+<- (gdb) 
+<- 2720^done,supported="0",details="Groove is gone.",time={wallclock="0.00006",user="0.00002",system="0.00004",start="1344608690.131467",end="1344608690.131532"}
+#  processing result t=14.760065 Tepoch=1344608690.134770
+#  didFinish Sequence: <PBXGDB_FixAndContinueIsSupportedSequence: 0x203164d40> t=14.760133 Tepoch=1344608690.134837
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x203426560> t=14.760173 Tepoch=1344608690.134877
+#  Passed verification of state before break create command t=14.760262 Tepoch=1344608690.134966
+-> 2721-break-insert -f "\"MagazineArticles_main.c\":141"
+#  PBXGDB_MICreateFileBreakpointCommand t=14.760342 Tepoch=1344608690.135046
+<- (gdb) 
+<- 2721^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"MagazineArticles_main.c\":141",times="0"},time={wallclock="0.00034",user="0.00012",system="0.00022",start="1344608690.135770",end="1344608690.136105"}
+#  processing result t=14.764900 Tepoch=1344608690.139604
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x203426560> t=14.764981 Tepoch=1344608690.139685
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x20186de00> t=14.765017 Tepoch=1344608690.139721
+#  Passed verification of state before break create command t=14.765088 Tepoch=1344608690.139792
+-> 2722-break-insert -f "\"MagazineArticles_main.c\":143"
+#  PBXGDB_MICreateFileBreakpointCommand t=14.765138 Tepoch=1344608690.139842
+<- (gdb) 
+<- 2722^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"MagazineArticles_main.c\":143",times="0"},time={wallclock="0.00011",user="0.00010",system="0.00001",start="1344608690.140463",end="1344608690.140568"}
+#  processing result t=14.769194 Tepoch=1344608690.143898
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x20186de00> t=14.769294 Tepoch=1344608690.143999
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x202c958a0> t=14.769336 Tepoch=1344608690.144040
+#  Passed verification of state before break create command t=14.769420 Tepoch=1344608690.144124
+-> 2723-break-insert -f "\"MagazineArticles_main.c\":85"
+#  PBXGDB_MICreateFileBreakpointCommand t=14.769463 Tepoch=1344608690.144167
+<- (gdb) 
+<- 2723^done,bkpt={number="3",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"MagazineArticles_main.c\":85",times="0"},time={wallclock="0.00012",user="0.00010",system="0.00001",start="1344608690.144669",end="1344608690.144785"}
+#  processing result t=14.773973 Tepoch=1344608690.148677
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x202c958a0> t=14.774055 Tepoch=1344608690.148759
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x20229d560> t=14.774090 Tepoch=1344608690.148794
+#  Passed verification of state before break create command t=14.774165 Tepoch=1344608690.148869
+-> 2724-break-insert -f "\"MagazineArticles_main.c\":76"
+#  PBXGDB_MICreateFileBreakpointCommand t=14.774213 Tepoch=1344608690.148917
+<- (gdb) 
+<- 2724^done,bkpt={number="4",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"MagazineArticles_main.c\":76",times="0"},time={wallclock="0.00016",user="0.00010",system="0.00003",start="1344608690.149140",end="1344608690.149297"}
+#  processing result t=14.777211 Tepoch=1344608690.151915
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x20229d560> t=14.777306 Tepoch=1344608690.152010
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x2013747a0> t=14.777343 Tepoch=1344608690.152047
+#  Passed verification of state before break create command t=14.777418 Tepoch=1344608690.152122
+-> 2725-break-insert -f "\"MagazineArticles_main.c\":66"
+#  PBXGDB_MICreateFileBreakpointCommand t=14.777463 Tepoch=1344608690.152167
+<- (gdb) 
+<- 2725^done,bkpt={number="5",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"MagazineArticles_main.c\":66",times="0"},time={wallclock="0.00013",user="0.00010",system="0.00002",start="1344608690.152402",end="1344608690.152528"}
+#  processing result t=14.779055 Tepoch=1344608690.153759
+-> 2726-exec-arguments 
+#  PBXGDB_MISetArgumentsCommand t=14.779684 Tepoch=1344608690.154388
+#  Enqueue seq in Command Q: <PBXGDB_RegisterDataValueSetupSequence: 0x2007b7140> t=14.779760 Tepoch=1344608690.154464
+#  Enqueue seq in State Changing Q: <PBXGDB_RunControlSequence: 0x2009d5f20> t=14.779803 Tepoch=1344608690.154507
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x2013747a0> t=14.779838 Tepoch=1344608690.154542
+#  Executing Sequence: <PBXGDB_RegisterDataValueSetupSequence: 0x2007b7140> t=14.779868 Tepoch=1344608690.154572
+-> 2727-data-list-register-names
+#  PBXGDB_MIGetRegisterNames t=14.779913 Tepoch=1344608690.154617
+<- (gdb) 
+<- 2726^done,time={wallclock="0.00005",user="0.00004",system="0.00001",start="1344608690.158192",end="1344608690.158238"}
+#  processing result t=14.784788 Tepoch=1344608690.159492
+<- (gdb) 
+<- 2727^done,register-names=["rax","rbx","rcx","rdx","rsi","rdi","rbp","rsp","r8","r9","r10","r11","r12","r13","r14","r15","rip","eflags","cs","ss","ds","es","fs","gs","st0","st1","st2","st3","st4","st5","st6","st7","fctrl","fstat","ftag","fiseg","fioff","foseg","fooff","fop","xmm0","xmm1","xmm2","xmm3","xmm4","xmm5","xmm6","xmm7","xmm8","xmm9","xmm10","xmm11","xmm12","xmm13","xmm14","xmm15","mxcsr"],time={wallclock="0.00019",user="0.00019",system="0.00000",start="1344608690.158315",end="1344608690.158506"}
+#  processing result t=14.785057 Tepoch=1344608690.159761
+#  didFinish Sequence: <PBXGDB_RegisterDataValueSetupSequence: 0x2007b7140> t=14.900203 Tepoch=1344608690.274907
+#  Executing Sequence: <PBXGDB_RunControlSequence: 0x2009d5f20> t=14.900269 Tepoch=1344608690.274973
+<- (gdb) 
+-> 2728-exec-run
+#  PBXGDB_MIRunExecutableCommand t=14.927002 Tepoch=1344608690.301706
+<- ~"[Switching to process 1162]\n"
+<- =shlibs-updated
+<- 2728^running
+#  processing result t=15.578318 Tepoch=1344608690.953022
+-> 2729-pid-info
+#  PBXGDB_MIGetPIDCommand t=15.589247 Tepoch=1344608690.963951
+<- (gdb) 
+<- 2729^done,process-id="1162",time={wallclock="0.00003",user="0.00002",system="0.00001",start="1344608690.964118",end="1344608690.964143"}
+#  processing result t=15.599646 Tepoch=1344608690.974350
+#  didFinish Sequence: <PBXGDB_RunControlSequence: 0x2009d5f20> t=15.788742 Tepoch=1344608691.163447
+<- (gdb) 
+<- =shlibs-added,shlib-info=[num="2",name="libsasl2.2.dylib",kind="-",dyld-addr="0x7fff86ca7000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libsasl2.2.dylib",description="/usr/lib/libsasl2.2.dylib",loaded_addr="0x7fff86ca7000",slide="0x7fff86ca7000",prefix=""],time={now="1344608703.401340"}
+<- =shlibs-added,shlib-info=[num="3",name="libgomp.1.0.0.dylib",kind="-",dyld-addr="0x100010000",reason="dyld",requested-state="E",state="E",path="/usr/local/lib/libgomp.1.0.0.dylib",description="/usr/local/lib/libgomp.1.0.0.dylib",loaded_addr="0x100010000",slide="0x100010000",prefix=""],time={now="1344608703.401469"}
+<- =shlibs-added,shlib-info=[num="4",name="Cocoa",kind="F",dyld-addr="0x7fff8972d000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",description="/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",loaded_addr="0x7fff8972d000",slide="0x7fff8972d000",prefix=""],time={now="1344608703.401608"}
+<- =shlibs-added,shlib-info=[num="5",name="libSystem.B.dylib",kind="-",dyld-addr="0x7fff89508000",reason="dyld",requested-state="Y",state="Y",path="/usr/lib/libSystem.B.dylib",description="/usr/lib/libSystem.B.dylib",loaded_addr="0x7fff89508000",slide="0x7fff89508000",prefix="",commpage-objpath="/usr/lib/libSystem.B.dylib[LC_SEGMENT.__DATA.__commpage]"],time={now="1344608703.401741"}
+<- =shlibs-added,shlib-info=[num="6",name="libobjc.A.dylib",kind="-",dyld-addr="0x7fff81c72000",reason="dyld",requested-state="Y",state="Y",path="/usr/lib/libobjc.A.dylib",description="/usr/lib/libobjc.A.dylib",loaded_addr="0x7fff81c72000",slide="0x7fff81c72000",prefix=""],time={now="1344608703.401838"}
+<- =shlibs-added,shlib-info=[num="7",name="CoreFoundation",kind="F",dyld-addr="0x7fff82048000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",description="/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",loaded_addr="0x7fff82048000",slide="0x7fff82048000",prefix=""],time={now="1344608703.401988"}
+<- =shlibs-added,shlib-info=[num="8",name="Foundation",kind="F",dyld-addr="0x7fff89285000",reason="dyld",requested-state="Y",state="Y",path="/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",description="/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",loaded_addr="0x7fff89285000",slide="0x7fff89285000",prefix=""],time={now="1344608703.402129"}
+<- =shlibs-added,shlib-info=[num="9",name="AppKit",kind="F",dyld-addr="0x7fff84238000",reason="dyld",requested-state="Y",state="Y",path="/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",description="/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",loaded_addr="0x7fff84238000",slide="0x7fff84238000",prefix=""],time={now="1344608703.402261"}
+<- =shlibs-added,shlib-info=[num="10",name="libmathCommon.A.dylib",kind="-",dyld-addr="0x7fff88719000",reason="dyld",requested-state="E",state="E",path="/usr/lib/system/libmathCommon.A.dylib",description="/usr/lib/system/libmathCommon.A.dylib",loaded_addr="0x7fff88719000",slide="0x7fff88719000",prefix=""],time={now="1344608703.402375"}
+<- =shlibs-added,shlib-info=[num="11",name="CoreData",kind="F",dyld-addr="0x7fff82a8f000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",description="/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",loaded_addr="0x7fff82a8f000",slide="0x7fff82a8f000",prefix=""],time={now="1344608703.402511"}
+<- =shlibs-added,shlib-info=[num="12",name="ApplicationServices",kind="F",dyld-addr="0x7fff84e81000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",loaded_addr="0x7fff84e81000",slide="0x7fff84e81000",prefix=""],time={now="1344608703.402674"}
+<- =shlibs-added,shlib-info=[num="13",name="AudioToolbox",kind="F",dyld-addr="0x7fff8a08e000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",description="/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",loaded_addr="0x7fff8a08e000",slide="0x7fff8a08e000",prefix=""],time={now="1344608703.402822"}
+<- =shlibs-added,shlib-info=[num="14",name="AudioUnit",kind="F",dyld-addr="0x7fff884e1000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit",description="/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit",loaded_addr="0x7fff884e1000",slide="0x7fff884e1000",prefix=""],time={now="1344608703.402962"}
+<- =shlibs-added,shlib-info=[num="15",name="DesktopServicesPriv",kind="F",dyld-addr="0x7fff85f40000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv",description="/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv",loaded_addr="0x7fff85f40000",slide="0x7fff85f40000",prefix=""],time={now="1344608703.403131"}
+<- =shlibs-added,shlib-info=[num="16",name="HIToolbox",kind="F",dyld-addr="0x7fff82611000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox",loaded_addr="0x7fff82611000",slide="0x7fff82611000",prefix=""],time={now="1344608703.403310"}
+<- =shlibs-added,shlib-info=[num="17",name="IOKit",kind="F",dyld-addr="0x7fff863e1000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",description="/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",loaded_addr="0x7fff863e1000",slide="0x7fff863e1000",prefix=""],time={now="1344608703.403440"}
+<- =shlibs-added,shlib-info=[num="18",name="QuartzCore",kind="F",dyld-addr="0x7fff8a1c4000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",description="/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",loaded_addr="0x7fff8a1c4000",slide="0x7fff8a1c4000",prefix=""],time={now="1344608703.403583"}
+<- =shlibs-added,shlib-info=[num="19",name="Security",kind="F",dyld-addr="0x7fff8a562000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Security.framework/Versions/A/Security",description="/System/Library/Frameworks/Security.framework/Versions/A/Security",loaded_addr="0x7fff8a562000",slide="0x7fff8a562000",prefix=""],time={now="1344608703.403720"}
+<- =shlibs-added,shlib-info=[num="20",name="SpeechRecognition",kind="F",dyld-addr="0x7fff896ca000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition",loaded_addr="0x7fff896ca000",slide="0x7fff896ca000",prefix=""],time={now="1344608703.403920"}
+<- =shlibs-added,shlib-info=[num="21",name="libauto.dylib",kind="-",dyld-addr="0x7fff8908d000",reason="dyld",requested-state="Y",state="Y",path="/usr/lib/libauto.dylib",description="/usr/lib/libauto.dylib",loaded_addr="0x7fff8908d000",slide="0x7fff8908d000",prefix=""],time={now="1344608703.404017"}
+<- =shlibs-added,shlib-info=[num="22",name="libicucore.A.dylib",kind="-",dyld-addr="0x7fff84049000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libicucore.A.dylib",description="/usr/lib/libicucore.A.dylib",loaded_addr="0x7fff84049000",slide="0x7fff84049000",prefix=""],time={now="1344608703.404120"}
+<- =shlibs-added,shlib-info=[num="23",name="libxml2.2.dylib",kind="-",dyld-addr="0x7fff82bce000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libxml2.2.dylib",description="/usr/lib/libxml2.2.dylib",loaded_addr="0x7fff82bce000",slide="0x7fff82bce000",prefix=""],time={now="1344608703.404218"}
+<- =shlibs-added,shlib-info=[num="24",name="libz.1.2.3.dylib",kind="-",dyld-addr="0x7fff89175000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libz.1.2.3.dylib",description="/usr/lib/libz.1.2.3.dylib",loaded_addr="0x7fff89175000",slide="0x7fff89175000",prefix=""],time={now="1344608703.404325"}
+<- =shlibs-added,shlib-info=[num="25",name="CoreUI",kind="F",dyld-addr="0x7fff850fb000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI",description="/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI",loaded_addr="0x7fff850fb000",slide="0x7fff850fb000",prefix=""],time={now="1344608703.404476"}
+<- =shlibs-added,shlib-info=[num="26",name="CoreAudio",kind="F",dyld-addr="0x7fff823ab000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",description="/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",loaded_addr="0x7fff823ab000",slide="0x7fff823ab000",prefix=""],time={now="1344608703.404615"}
+<- =shlibs-added,shlib-info=[num="27",name="DiskArbitration",kind="F",dyld-addr="0x7fff8a021000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",description="/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",loaded_addr="0x7fff8a021000",slide="0x7fff8a021000",prefix=""],time={now="1344608703.404769"}
+<- =shlibs-added,shlib-info=[num="28",name="liblangid.dylib",kind="-",dyld-addr="0x7fff85215000",reason="dyld",requested-state="E",state="E",path="/usr/lib/liblangid.dylib",description="/usr/lib/liblangid.dylib",loaded_addr="0x7fff85215000",slide="0x7fff85215000",prefix=""],time={now="1344608703.404885"}
+<- =shlibs-added,shlib-info=[num="29",name="MultitouchSupport",kind="F",dyld-addr="0x7fff89f23000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport",description="/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport",loaded_addr="0x7fff89f23000",slide="0x7fff89f23000",prefix=""],time={now="1344608703.405055"}
+<- =shlibs-added,shlib-info=[num="30",name="CoreServices",kind="F",dyld-addr="0x7fff87b6e000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",loaded_addr="0x7fff87b6e000",slide="0x7fff87b6e000",prefix=""],time={now="1344608703.405200"}
+<- =shlibs-added,shlib-info=[num="31",name="CoreGraphics",kind="F",dyld-addr="0x7fff8087d000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",loaded_addr="0x7fff8087d000",slide="0x7fff8087d000",prefix=""],time={now="1344608703.405396"}
+<- =shlibs-added,shlib-info=[num="32",name="ImageIO",kind="F",dyld-addr="0x7fff81a90000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO",loaded_addr="0x7fff81a90000",slide="0x7fff81a90000",prefix=""],time={now="1344608703.405581"}
+<- =shlibs-added,shlib-info=[num="33",name="CoreText",kind="F",dyld-addr="0x7fff89f3a000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText",loaded_addr="0x7fff89f3a000",slide="0x7fff89f3a000",prefix=""],time={now="1344608703.405767"}
+<- =shlibs-added,shlib-info=[num="34",name="ATS",kind="F",dyld-addr="0x7fff890da000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS",loaded_addr="0x7fff890da000",slide="0x7fff890da000",prefix=""],time={now="1344608703.405941"}
+<- =shlibs-added,shlib-info=[num="35",name="ColorSync",kind="F",dyld-addr="0x7fff801f8000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync",loaded_addr="0x7fff801f8000",slide="0x7fff801f8000",prefix=""],time={now="1344608703.406134"}
+<- =shlibs-added,shlib-info=[num="36",name="HIServices",kind="F",dyld-addr="0x7fff852a5000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices",loaded_addr="0x7fff852a5000",slide="0x7fff852a5000",prefix=""],time={now="1344608703.406326"}
+<- =shlibs-added,shlib-info=[num="37",name="LangAnalysis",kind="F",dyld-addr="0x7fff81732000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis",loaded_addr="0x7fff81732000",slide="0x7fff81732000",prefix=""],time={now="1344608703.406521"}
+<- =shlibs-added,shlib-info=[num="38",name="PrintCore",kind="F",dyld-addr="0x7fff86026000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore",loaded_addr="0x7fff86026000",slide="0x7ffe8bf26000",prefix=""],time={now="1344608703.406726"}
+<- =shlibs-added,shlib-info=[num="39",name="QD",kind="F",dyld-addr="0x7fff82006000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD",loaded_addr="0x7fff82006000",slide="0x7fff82006000",prefix=""],time={now="1344608703.406913"}
+<- =shlibs-added,shlib-info=[num="40",name="SpeechSynthesis",kind="F",dyld-addr="0x7fff83fa8000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis",loaded_addr="0x7fff83fa8000",slide="0x7fff83fa8000",prefix=""],time={now="1344608703.407115"}
+<- =shlibs-added,shlib-info=[num="41",name="libbsm.0.dylib",kind="-",dyld-addr="0x7fff89076000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libbsm.0.dylib",description="/usr/lib/libbsm.0.dylib",loaded_addr="0x7fff89076000",slide="0x7fff89076000",prefix=""],time={now="1344608703.407212"}
+<- =shlibs-added,shlib-info=[num="42",name="libstdc++.6.0.9.dylib",kind="-",dyld-addr="0x7fff821e8000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libstdc++.6.0.9.dylib",description="/usr/lib/libstdc++.6.0.9.dylib",loaded_addr="0x7fff821e8000",slide="0x7fff821e8000",prefix=""],time={now="1344608703.407327"}
+<- =shlibs-added,shlib-info=[num="43",name="libkxld.dylib",kind="-",dyld-addr="0x7fff89187000",reason="dyld",requested-state="E",state="E",path="/usr/lib/system/libkxld.dylib",description="/usr/lib/system/libkxld.dylib",loaded_addr="0x7fff89187000",slide="0x7fff89187000",prefix=""],time={now="1344608703.407428"}
+<- =shlibs-added,shlib-info=[num="44",name="CarbonCore",kind="F",dyld-addr="0x7fff860ac000",reason="dyld",requested-state="Y",state="Y",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore",loaded_addr="0x7fff860ac000",slide="0x7fff860ac000",prefix=""],time={now="1344608703.407612"}
+<- =shlibs-added,shlib-info=[num="45",name="CFNetwork",kind="F",dyld-addr="0x7fff80003000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",loaded_addr="0x7fff80003000",slide="0x7fff80003000",prefix=""],time={now="1344608703.407794"}
+<- =shlibs-added,shlib-info=[num="46",name="Metadata",kind="F",dyld-addr="0x7fff8923a000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata",loaded_addr="0x7fff8923a000",slide="0x7fff88a3a000",prefix=""],time={now="1344608703.407972"}
+<- =shlibs-added,shlib-info=[num="47",name="OSServices",kind="F",dyld-addr="0x7fff8248c000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices",loaded_addr="0x7fff8248c000",slide="0x7fff8248c000",prefix=""],time={now="1344608703.408154"}
+<- =shlibs-added,shlib-info=[num="48",name="SearchKit",kind="F",dyld-addr="0x7fff84e85000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit",loaded_addr="0x7fff84e85000",slide="0x7fff84e85000",prefix=""],time={now="1344608703.408352"}
+<- =shlibs-added,shlib-info=[num="49",name="AE",kind="F",dyld-addr="0x7fff8254a000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE",loaded_addr="0x7fff8254a000",slide="0x7fff8254a000",prefix=""],time={now="1344608703.408515"}
+<- =shlibs-added,shlib-info=[num="50",name="LaunchServices",kind="F",dyld-addr="0x7fff885b4000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices",loaded_addr="0x7fff885b4000",slide="0x7fff885b4000",prefix=""],time={now="1344608703.408708"}
+<- =shlibs-added,shlib-info=[num="51",name="DictionaryServices",kind="F",dyld-addr="0x7fff89196000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices",description="/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices",loaded_addr="0x7fff89196000",slide="0x7fff89196000",prefix=""],time={now="1344608703.408929"}
+<- =shlibs-added,shlib-info=[num="52",name="NetFS",kind="F",dyld-addr="0x7fff89fb9000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS",description="/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS",loaded_addr="0x7fff89fb9000",slide="0x7fff89fb9000",prefix=""],time={now="1344608703.409060"}
+<- =shlibs-added,shlib-info=[num="53",name="libsqlite3.dylib",kind="-",dyld-addr="0x7fff87b6f000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libsqlite3.dylib",description="/usr/lib/libsqlite3.dylib",loaded_addr="0x7fff87b6f000",slide="0x7fff87b6f000",prefix=""],time={now="1344608703.409169"}
+<- =shlibs-added,shlib-info=[num="54",name="SystemConfiguration",kind="F",dyld-addr="0x7fff89fc9000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",description="/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",loaded_addr="0x7fff89fc9000",slide="0x7fff89fc9000",prefix=""],time={now="1344608703.409331"}
+<- =shlibs-added,shlib-info=[num="55",name="libxslt.1.dylib",kind="-",dyld-addr="0x7fff8a870000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libxslt.1.dylib",description="/usr/lib/libxslt.1.dylib",loaded_addr="0x7fff8a870000",slide="0x7fff8a870000",prefix=""],time={now="1344608703.409431"}
+<- =shlibs-added,shlib-info=[num="56",name="Accelerate",kind="F",dyld-addr="0x7fff82d10000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",loaded_addr="0x7fff82d10000",slide="0x7fff82d10000",prefix=""],time={now="1344608703.409571"}
+<- =shlibs-added,shlib-info=[num="57",name="libTIFF.dylib",kind="-",dyld-addr="0x7fff896d6000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib",loaded_addr="0x7fff896d6000",slide="0x7fff896d6000",prefix=""],time={now="1344608703.409773"}
+<- =shlibs-added,shlib-info=[num="58",name="libGIF.dylib",kind="-",dyld-addr="0x7fff889d2000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib",loaded_addr="0x7fff889d2000",slide="0x7fff889d2000",prefix=""],time={now="1344608703.409973"}
+<- =shlibs-added,shlib-info=[num="59",name="libPng.dylib",kind="-",dyld-addr="0x7fff81d2c000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib",loaded_addr="0x7fff81d2c000",slide="0x7fff81d2c000",prefix=""],time={now="1344608703.410173"}
+<- =shlibs-added,shlib-info=[num="60",name="libRadiance.dylib",kind="-",dyld-addr="0x7fff81d29000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib",loaded_addr="0x7fff81d29000",slide="0x7fff81d29000",prefix=""],time={now="1344608703.410400"}
+<- =shlibs-added,shlib-info=[num="61",name="libJPEG.dylib",kind="-",dyld-addr="0x7fff82464000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib",loaded_addr="0x7fff82464000",slide="0x7fff82464000",prefix=""],time={now="1344608703.531393"}
+<- =shlibs-added,shlib-info=[num="62",name="vImage",kind="F",dyld-addr="0x7fff888f4000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage",loaded_addr="0x7fff888f4000",slide="0x7fff888f4000",prefix=""],time={now="1344608703.531591"}
+<- =shlibs-added,shlib-info=[num="63",name="vecLib",kind="F",dyld-addr="0x7fff88498000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib",loaded_addr="0x7fff88498000",slide="0x7fff88498000",prefix=""],time={now="1344608703.531781"}
+<- =shlibs-added,shlib-info=[num="64",name="libvDSP.dylib",kind="-",dyld-addr="0x7fff82910000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib",loaded_addr="0x7fff82910000",slide="0x7fff82910000",prefix=""],time={now="1344608703.531992"}
+<- =shlibs-added,shlib-info=[num="65",name="libvMisc.dylib",kind="-",dyld-addr="0x7fff8017b000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib",loaded_addr="0x7fff8017b000",slide="0x7fff8017b000",prefix=""],time={now="1344608703.532180"}
+<- =shlibs-added,shlib-info=[num="66",name="libBLAS.dylib",kind="-",dyld-addr="0x7fff87c29000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib",loaded_addr="0x7fff87c29000",slide="0x7fff87c29000",prefix=""],time={now="1344608703.532364"}
+<- =shlibs-added,shlib-info=[num="67",name="libLAPACK.dylib",kind="-",dyld-addr="0x7fff88c32000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib",description="/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib",loaded_addr="0x7fff88c32000",slide="0x7fff88c32000",prefix=""],time={now="1344608703.532550"}
+<- =shlibs-added,shlib-info=[num="68",name="libcrypto.0.9.8.dylib",kind="-",dyld-addr="0x7fff86d9b000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libcrypto.0.9.8.dylib",description="/usr/lib/libcrypto.0.9.8.dylib",loaded_addr="0x7fff86d9b000",slide="0x7fff86d9b000",prefix=""],time={now="1344608703.532659"}
+<- =shlibs-added,shlib-info=[num="69",name="TrustEvaluationAgent",kind="F",dyld-addr="0x7fff825c4000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent",description="/System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent",loaded_addr="0x7fff825c4000",slide="0x7fff825c4000",prefix=""],time={now="1344608703.533274"}
+<- =shlibs-added,shlib-info=[num="70",name="libFontParser.dylib",kind="-",dyld-addr="0x7fff88656000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib",loaded_addr="0x7fff88656000",slide="0x7fff88656000",prefix=""],time={now="1344608703.533495"}
+<- =shlibs-added,shlib-info=[num="71",name="libcups.2.dylib",kind="-",dyld-addr="0x7fff80312000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libcups.2.dylib",description="/usr/lib/libcups.2.dylib",loaded_addr="0x7fff80312000",slide="0x7fff80312000",prefix=""],time={now="1344608703.533597"}
+<- =shlibs-added,shlib-info=[num="72",name="Kerberos",kind="F",dyld-addr="0x7fff88503000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos",description="/System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos",loaded_addr="0x7fff88503000",slide="0x7fff68503000",prefix=""],time={now="1344608703.533746"}
+<- =shlibs-added,shlib-info=[num="73",name="libresolv.9.dylib",kind="-",dyld-addr="0x7fff80543000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libresolv.9.dylib",description="/usr/lib/libresolv.9.dylib",loaded_addr="0x7fff80543000",slide="0x7fff80543000",prefix=""],time={now="1344608703.533857"}
+<- =shlibs-added,shlib-info=[num="74",name="vecLib",kind="F",dyld-addr="0x7fff88ba4000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/vecLib.framework/Versions/A/vecLib",description="/System/Library/Frameworks/vecLib.framework/Versions/A/vecLib",loaded_addr="0x7fff88ba4000",slide="0x7fff88ba4000",prefix=""],time={now="1344608703.534012"}
+<- =shlibs-added,shlib-info=[num="75",name="FamilyControls",kind="F",dyld-addr="0x7fff84f70000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls",description="/System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls",loaded_addr="0x7fff84f70000",slide="0x7fff84f70000",prefix=""],time={now="1344608703.537541"}
+<- =shlibs-added,shlib-info=[num="76",name="Ink",kind="F",dyld-addr="0x7fff83d7c000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink",loaded_addr="0x7fff83d7c000",slide="0x7fff83d7c000",prefix=""],time={now="1344608703.537774"}
+<- =shlibs-added,shlib-info=[num="77",name="CoreVideo",kind="F",dyld-addr="0x7fff81f86000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",description="/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",loaded_addr="0x7fff81f86000",slide="0x7fff81f86000",prefix=""],time={now="1344608703.537953"}
+<- =shlibs-added,shlib-info=[num="78",name="OpenGL",kind="F",dyld-addr="0x7fff86cba000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",loaded_addr="0x7fff86cba000",slide="0x7fff86cba000",prefix=""],time={now="1344608703.538126"}
+<- =shlibs-added,shlib-info=[num="79",name="libGLImage.dylib",kind="-",dyld-addr="0x7fff86442000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib",loaded_addr="0x7fff86442000",slide="0x7fff86442000",prefix=""],time={now="1344608703.538314"}
+<- =shlibs-added,shlib-info=[num="80",name="OpenCL",kind="F",dyld-addr="0x7fff81d7f000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL",description="/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL",loaded_addr="0x7fff81d7f000",slide="0x7fff81d7f000",prefix=""],time={now="1344608703.538451"}
+<- =shlibs-added,shlib-info=[num="81",name="IOSurface",kind="F",dyld-addr="0x7fff86cca000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",description="/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",loaded_addr="0x7fff86cca000",slide="0x7fff86cca000",prefix=""],time={now="1344608703.538592"}
+<- =shlibs-added,shlib-info=[num="82",name="libGLU.dylib",kind="-",dyld-addr="0x7fff889d8000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib",loaded_addr="0x7fff889d8000",slide="0x7fff889d8000",prefix=""],time={now="1344608703.538746"}
+<- =shlibs-added,shlib-info=[num="83",name="libGL.dylib",kind="-",dyld-addr="0x7fff82959000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib",loaded_addr="0x7fff82959000",slide="0x7fff82959000",prefix=""],time={now="1344608703.539069"}
+<- =shlibs-added,shlib-info=[num="84",name="libGLProgrammability.dylib",kind="-",dyld-addr="0x7fff89a52000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib",loaded_addr="0x7fff89a52000",slide="0x7fff89a52000",prefix=""],time={now="1344608703.539250"}
+<- =shlibs-added,shlib-info=[num="85",name="libCoreVMClient.dylib",kind="-",dyld-addr="0x7fff850ef000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib",loaded_addr="0x7fff850ef000",slide="0x7fff850ef000",prefix=""],time={now="1344608703.539417"}
+<- =shlibs-added,shlib-info=[num="86",name="libGFXShared.dylib",kind="-",dyld-addr="0x7fff86ced000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib",description="/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib",loaded_addr="0x7fff86ced000",slide="0x7fff86ced000",prefix=""],time={now="1344608703.539592"}
+<- =shlibs-added,shlib-info=[num="87",name="SecurityFoundation",kind="F",dyld-addr="0x7fff88ba5000",reason="dyld",requested-state="Y",state="Y",path="/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation",description="/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation",loaded_addr="0x7fff88ba5000",slide="0x7fff88ba5000",prefix=""],time={now="1344608703.539770"}
+<- =shlibs-added,shlib-info=[num="88",name="OpenDirectory",kind="F",dyld-addr="0x7fff8233f000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",description="/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",loaded_addr="0x7fff8233f000",slide="0x7fff8233f000",prefix=""],time={now="1344608703.539925"}
+<- =shlibs-added,shlib-info=[num="89",name="CommerceCore",kind="F",dyld-addr="0x7fff884fc000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Frameworks/CommerceCore.framework/Versions/A/CommerceCore",description="/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Frameworks/CommerceCore.framework/Versions/A/CommerceCore",loaded_addr="0x7fff884fc000",slide="0x7fff884fc000",prefix=""],time={now="1344608703.540152"}
+<- =shlibs-added,shlib-info=[num="90",name="CFOpenDirectory",kind="F",dyld-addr="0x7fff83fbd000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory",description="/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory",loaded_addr="0x7fff83fbd000",slide="0x7fff83fbd000",prefix=""],time={now="1344608703.540357"}
+<- =shlibs-added,shlib-info=[num="91",name="PasswordServer",kind="F",dyld-addr="0x7fff800e7000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/PasswordServer.framework/Versions/A/PasswordServer",description="/System/Library/PrivateFrameworks/PasswordServer.framework/Versions/A/PasswordServer",loaded_addr="0x7fff800e7000",slide="0x7fff800e7000",prefix=""],time={now="1344608703.540518"}
+<- =shlibs-added,shlib-info=[num="92",name="DirectoryService",kind="F",dyld-addr="0x7fff8573b000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService",description="/System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService",loaded_addr="0x7fff8573b000",slide="0x7fff8573b000",prefix=""],time={now="1344608703.540677"}
+<- =shlibs-added,shlib-info=[num="93",name="MGScopeBar",kind="-",dyld-addr="0x100000000",reason="exec",requested-state="E",state="E",path="/Users/ericgallager/textmate/vendor/MGScopeBar/vendor/build/Debug/MGScopeBar.app/Contents/MacOS/MGScopeBar",description="/Users/ericgallager/textmate/vendor/MGScopeBar/vendor/build/Debug/MGScopeBar.app/Contents/MacOS/MGScopeBar",loaded_addr="",slide="0x0",prefix=""],time={now="1344608703.540841"}
+<- =shlibs-added,shlib-info=[num="94",name="libFontRegistry.dylib",kind="-",dyld-addr="0x7fff88459000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib",loaded_addr="0x7fff88459000",slide="0x7fff88459000",prefix=""],time={now="1344608704.550393"}
+<- =shlibs-added,shlib-info=[num="95",name="libCSync.A.dylib",kind="-",dyld-addr="0x7fff81c50000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib",loaded_addr="0x7fff81c50000",slide="0x7fff81c50000",prefix=""],time={now="1344608704.747248"}
+<- =shlibs-added,shlib-info=[num="96",name="libCGXType.A.dylib",kind="-",dyld-addr="0x7fff807d3000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXType.A.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXType.A.dylib",loaded_addr="0x7fff807d3000",slide="0x7fff807d3000",prefix=""],time={now="1344608704.892407"}
+<- =shlibs-added,shlib-info=[num="97",name="libTrueTypeScaler.dylib",kind="-",dyld-addr="0x7fff80808000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libTrueTypeScaler.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libTrueTypeScaler.dylib",loaded_addr="0x7fff80808000",slide="0x7fff80808000",prefix=""],time={now="1344608705.028957"}
+<- =shlibs-added,shlib-info=[num="98",name="libRIP.A.dylib",kind="-",dyld-addr="0x7fff82a4b000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib",description="/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib",loaded_addr="0x7fff82a4b000",slide="0x7fff82a4b000",prefix=""],time={now="1344608706.372698"}
+<- =shlibs-added,shlib-info=[num="99",name="RawCamera",kind="B",dyld-addr="0x7fff810eb000",reason="dyld",requested-state="E",state="E",path="/System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera",description="/System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera",loaded_addr="0x7fff810eb000",slide="0x7fff810eb000",prefix=""],time={now="1344608707.366363"}
+<- =shlibs-added,shlib-info=[num="100",name="OpenScripting",kind="F",dyld-addr="0x7fff86cd1000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting",loaded_addr="0x7fff86cd1000",slide="0x7fff86cd1000",prefix=""],time={now="1344608708.933050"}
+<- =shlibs-added,shlib-info=[num="101",name="SIMBL",kind="-",dyld-addr="0x1007dd000",reason="dyld",requested-state="E",state="E",path="/Users/localadmin/Library/ScriptingAdditions/SIMBL.osax/Contents/MacOS/SIMBL",description="/Users/localadmin/Library/ScriptingAdditions/SIMBL.osax/Contents/MacOS/SIMBL",loaded_addr="0x1007dd000",slide="0x1007dd000",prefix=""],time={now="1344608710.396803"}
+<- =shlibs-added,shlib-info=[num="102",name="SecurityHI",kind="F",dyld-addr="0x7fff83fa4000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI",loaded_addr="0x7fff83fa4000",slide="0x7fff83fa4000",prefix=""],time={now="1344608713.325384"}
+<- =shlibs-added,shlib-info=[num="103",name="ScriptingBridge",kind="F",dyld-addr="0x7fff80528000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge",description="/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge",loaded_addr="0x7fff80528000",slide="0x7fff80528000",prefix=""],time={now="1344608713.325559"}
+<- =shlibs-added,shlib-info=[num="104",name="libffi.dylib",kind="-",dyld-addr="0x7fff82d0e000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libffi.dylib",description="/usr/lib/libffi.dylib",loaded_addr="0x7fff82d0e000",slide="0x7fff82d0e000",prefix=""],time={now="1344608713.325658"}
+<- =shlibs-added,shlib-info=[num="105",name="Carbon",kind="F",dyld-addr="0x7fff88655000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",loaded_addr="0x7fff88655000",slide="0x7fff88655000",prefix=""],time={now="1344608713.325794"}
+<- =shlibs-added,shlib-info=[num="106",name="CommonPanels",kind="F",dyld-addr="0x7fff85147000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels",loaded_addr="0x7fff85147000",slide="0x7fff85147000",prefix=""],time={now="1344608713.325998"}
+<- =shlibs-added,shlib-info=[num="107",name="Help",kind="F",dyld-addr="0x7fff85143000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help",loaded_addr="0x7fff85143000",slide="0x7fff85143000",prefix=""],time={now="1344608713.326181"}
+<- =shlibs-added,shlib-info=[num="108",name="ImageCapture",kind="F",dyld-addr="0x7fff81983000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture",loaded_addr="0x7fff81983000",slide="0x7fff81983000",prefix=""],time={now="1344608713.326369"}
+<- =shlibs-added,shlib-info=[num="109",name="Print",kind="F",dyld-addr="0x7fff82d01000",reason="dyld",requested-state="E",state="E",path="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print",description="/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print",loaded_addr="0x7fff82d01000",slide="0x7fff1e201000",prefix=""],time={now="1344608713.326538"}
+<- =shlibs-added,shlib-info=[num="110",name="SizeWell",kind="B",dyld-addr="0x1050db000",reason="dyld",requested-state="E",state="E",path="/Users/ericgallager/Library/Application Support/SIMBL/Plugins/SizeWell.bundle/Contents/MacOS/SizeWell",description="/Users/ericgallager/Library/Application Support/SIMBL/Plugins/SizeWell.bundle/Contents/MacOS/SizeWell",loaded_addr="0x1050db000",slide="0x1050db000",prefix=""],time={now="1344608713.326706"}
+<- =shlibs-added,shlib-info=[num="111",name="Shortcut",kind="F",dyld-addr="0x7fff81d4e000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/Shortcut.framework/Versions/A/Shortcut",description="/System/Library/PrivateFrameworks/Shortcut.framework/Versions/A/Shortcut",loaded_addr="0x7fff81d4e000",slide="0x7fff81d4e000",prefix=""],time={now="1344608716.565230"}
+<- =shlibs-added,shlib-info=[num="112",name="HelpData",kind="F",dyld-addr="0x7fff8579f000",reason="dyld",requested-state="E",state="E",path="/System/Library/PrivateFrameworks/HelpData.framework/Versions/A/HelpData",description="/System/Library/PrivateFrameworks/HelpData.framework/Versions/A/HelpData",loaded_addr="0x7fff8579f000",slide="0x7fff8579f000",prefix=""],time={now="1344608716.567271"}
+<- =shlibs-added,shlib-info=[num="113",name="libtidy.A.dylib",kind="-",dyld-addr="0x7fff80137000",reason="dyld",requested-state="E",state="E",path="/usr/lib/libtidy.A.dylib",description="/usr/lib/libtidy.A.dylib",loaded_addr="0x7fff80137000",slide="0x7fff80137000",prefix=""],time={now="1344608716.569223"}
+<- 2728*stopped,time={wallclock="29.69175",user="0.45286",system="0.58531",start="1344608690.304321",end="1344608719.996074"},reason="exited-normally"
+#  processing result t=44.718345 Tepoch=1344608720.093049

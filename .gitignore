@@ -8,3 +8,6 @@ Debug/*
 *.o
 Debug
 *.cbtemp
+*.xcuserstate
+*/xcuserdata/*
+*.xcuserdatad

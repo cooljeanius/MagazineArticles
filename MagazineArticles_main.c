@@ -82,7 +82,7 @@ article_t scan_contents(FILE*infile1, FILE*infile2, int i) {
         if ((article[j].page_number[0] != EOF) && (article[j].page_number[0] != '\0')) {
             fscanf((FILE*)infile1, "%s", article[j].title);
 #if defined(DEBUG_MA) && (DEBUG_MA > 1) && defined(__GNUC__) && !defined(__STRICT_ANSI__)
-            printf("\n %s: j = %i, k = %i \n", __FUNCTION__, j, k); // statement for debugging
+            printf("\n %s: j is less than 11, k = %i \n", __FUNCTION__, k); // statement for debugging
 #endif /* (DEBUG_MA > 1) && __GNUC__ && !__STRICT_ANSI__ */
         }
     } else if ((j > 11) && (j <= 20)) {
@@ -91,7 +91,7 @@ article_t scan_contents(FILE*infile1, FILE*infile2, int i) {
         if ((article[j].page_number[0] != EOF) && (article[j].page_number[0] != '\0')) {
             fscanf((FILE*)infile2, "%s", article[j].title);
 #if defined(DEBUG_MA) && (DEBUG_MA > 1) && defined(__GNUC__) && !defined(__STRICT_ANSI__)
-            printf("\n %s: j = %i, k = %i \n", __FUNCTION__, j, k); // statement for debugging
+            printf("\n %s: j is between 11 and 20, k = %i \n", __FUNCTION__, k); // statement for debugging
 #endif /* (DEBUG_MA > 1) && __GNUC__ && !__STRICT_ANSI__ */
         }
     } else {
@@ -168,6 +168,9 @@ int main (int argc, const char * argv[]) {
     int i = 0; // initialize loop-counter
     for (i = 1; i < MAX_ARTICLES; i++) { // goes through array for holding articles in
         if (article[i].page_number[0] != EOF) {
+#ifdef DEBUG_MA
+            printf("\n Scanning contents for article %i... \n", i);
+#endif /* DEBUG_MA */
             article[i] = scan_contents(infile1, infile2, i);
         }
     }

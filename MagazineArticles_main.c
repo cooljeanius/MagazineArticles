@@ -68,29 +68,42 @@ article_t scan_contents(FILE*infile1, FILE*infile2, int i); // prototype
 article_t scan_contents(FILE*infile1, FILE*infile2, int i) {
     int j = 0;
     j = i;
-    // printf("\n j = %i \n", j); // statement for debugging
+#if defined(DEBUG_MA) && (DEBUG_MA > 1) && defined(__GNUC__) && !defined(__STRICT_ANSI__)
+    printf("\n %s: j = %i \n", __FUNCTION__, j); // statement for debugging
+#endif /* (DEBUG_MA > 1) && __GNUC__ && !__STRICT_ANSI__ */
     article_t article[j];
-    // int k = 0; // loop-counter
+#if defined(DEBUG_MA) && (DEBUG_MA > 1)
+    int k = 0; // loop-counter
+#endif /* (DEBUG_MA > 1) && __GNUC__ && !__STRICT_ANSI__ */
     int l = 0; // loop-counter
     if (j <= 11) {
         fscanf((FILE*)infile1, "%i%i", &article[j].page_number[0], &article[j].page_number[1]);
         article[j].page_number[2] = ((article[j].page_number[0] * 10) + article[j].page_number[1]); // convert 2 1-digit numbers into a 2-digit number
         if ((article[j].page_number[0] != EOF) && (article[j].page_number[0] != '\0')) {
             fscanf((FILE*)infile1, "%s", article[j].title);
-            // printf("\n k = %i \n", k); // statement for debugging
+#if defined(DEBUG_MA) && (DEBUG_MA > 1) && defined(__GNUC__) && !defined(__STRICT_ANSI__)
+            printf("\n %s: j = %i, k = %i \n", __FUNCTION__, j, k); // statement for debugging
+#endif /* (DEBUG_MA > 1) && __GNUC__ && !__STRICT_ANSI__ */
         }
     } else if ((j > 11) && (j <= 20)) {
         fscanf((FILE*)infile2, "%i%i", &article[j].page_number[0], &article[j].page_number[1]);
         article[j].page_number[2] = ((article[j].page_number[0] * 10) + article[j].page_number[1]); // convert 2 1-digit numbers into a 2-digit number
         if ((article[j].page_number[0] != EOF) && (article[j].page_number[0] != '\0')) {
             fscanf((FILE*)infile2, "%s", article[j].title);
-            // printf("\n k = %i \n", k); // statement for debugging
+#if defined(DEBUG_MA) && (DEBUG_MA > 1) && defined(__GNUC__) && !defined(__STRICT_ANSI__)
+            printf("\n %s: j = %i, k = %i \n", __FUNCTION__, j, k); // statement for debugging
+#endif /* (DEBUG_MA > 1) && __GNUC__ && !__STRICT_ANSI__ */
         }
     } else {
-        for (l = 0; l < 4; l++) {
-            article[j].page_number[l] = 0;
+        int m = 0;
+        for (m = 0; m < j; m++) {
+            for (l = 0; l < 4; l++) {
+                article[m].page_number[l] = 0;
+            }
         }
-        // article[j].title = "\n Error! \n";
+#if defined(DEBUG_MA) && (DEBUG_MA > 1) && CAN_ASSIGN_STRINGS_TO_ARRAYS
+        article[j].title = "\n Error! \n";
+#endif /* (DEBUG_MA > 1) && CAN_ASSIGN_STRINGS_TO_ARRAYS */
     }
     return(article[j]);
 }
@@ -120,14 +133,16 @@ int main (int argc, const char * argv[]) {
     FILE *infile1;
     infile1 = fopen("MagazineContents.txt", "r");
     if (infile1 == NULL) { // check for existence of input file
-        printf("\n Cannot open MagazineContents.txt for input, make sure this file exists. \n");
+        fprintf(stderr, "\n Cannot open MagazineContents.txt for input, make sure this file exists. \n");
+        exit(EXIT_FAILURE);
     } else {
         printf("\n MagazineContents.txt is good to go. \n");
     }
     FILE *infile2;
     infile2 = fopen("MagazineContents2.txt", "r");
     if (infile2 == NULL) { // check for existence of input file
-        printf("\n Cannot open MagazineContents2.txt for input, make sure this file exists. \n");
+        fprintf(stderr, "\n Cannot open MagazineContents2.txt for input, make sure this file exists. \n");
+        exit(EXIT_FAILURE);
     } else {
         printf("\n MagazineContents2.txt is good to go. \n");
     }
@@ -147,7 +162,9 @@ int main (int argc, const char * argv[]) {
     printf("\n selected_page_number = %.0f \n",
     	   selected_page_number.two_digit_number); // statement for debugging
 #endif /* DEBUG_MA */
-    article_t article[MAX_ARTICLES];
+    article_t article[MAX_ARTICLES] = {
+        {{0, 0, 0, 0}, "", 0}
+    };
     int i = 0; // initialize loop-counter
     for (i = 1; i < MAX_ARTICLES; i++) { // goes through array for holding articles in
         if (article[i].page_number[0] != EOF) {
@@ -162,7 +179,7 @@ int main (int argc, const char * argv[]) {
         printf("\n Match? %i \n", answer); // statement for debugging
 #endif /* DEBUG_MA */
         if (answer >= 1) {
-            printf("\n Article %s starts on page %.0f. \n", *article[i].title,
+            printf("\n Article %s starts on page %.0f. \n", article[i].title,
                    selected_page_number.two_digit_number);
             flag++;
         }
